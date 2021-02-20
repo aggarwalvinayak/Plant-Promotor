@@ -2,3 +2,4 @@ django
 numpy==1.18.5
 tensorflow==2.3.0
 django-heroku
+gunicorn
