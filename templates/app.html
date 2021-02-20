@@ -11,19 +11,21 @@
 <body style="margin:0%; padding: 0%; background: url('https://i.ytimg.com/vi/hbt4M8YrNuo/maxresdefault.jpg'); background-size: contain; ">
     
     <div class="container" style="margin-top: 20vh; border-radius: 24px; background: rgba(134, 64, 6, 0.4); height: 500px; padding: 10px;">
-        <h1>Plant Promoter Stress Response Prediction
+        <h1 style="background-color:rgba(0, 255, 255, 0.5); display:inline;">Plant Promoter Stress Response Prediction
             <!-- <small>Django Web Framework</small> -->
-        </h1>
+        </h1><br/><br/>
         <!-- <h3>Application of Natural Language Processing</h3> -->
         <br>
         <form method="POST" class="form-group">
             {% csrf_token %}
             <!--{{form.as_p}}-->
-            <h3 style="font-size:25px; font-family: sans-serif; ">Enter Upstream Promotor Sequence to classify</h3>
-            <small>(Max Length can be 1000. Will be trimmed if input is longer)</small>
+            <h3 style="font-size:25px; font-family: sans-serif;background-color:rgba(0, 255, 255, 0.5);display:inline; ">Enter Upstream Promotor Sequence to classify</h3><br/>
+            <small style="background-color:rgba(0, 255, 255, 0.5)">(Max Length can be 1000. Will be trimmed if input is longer)</small><br/><br/>
             {{form.Sentence}}
             <br>
-            <button class="btn btn-warning form-control" type="submit">Submit</button>
+            <div align="center">
+            <button style="display:inline; width:300px" class="btn btn-warning form-control" type="submit">Predict Stress Response</button>
+        </div>
         </form>
         <div align="center">
             <h1 style="font-family: sans-serif; font-size: 25px;">Result</h1>
