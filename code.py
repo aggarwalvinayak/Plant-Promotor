@@ -2,7 +2,7 @@
 # import tensorflow as tf
 # from sklearn.metrics import make_scorer, accuracy_score, precision_recall_fscore_support,classification_report
 import numpy as np
-import pandas as pd
+# import pandas as pd
 # from sklearn.metrics import f1_score
 # from sklearn.utils import shuffle
 from tensorflow import keras
