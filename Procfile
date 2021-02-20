@@ -1,1 +1,1 @@
-web: gunicorn plantProm.wsgi --log-file=-
+web: gunicorn plantProm.wsgi:application --preload --workers 1
