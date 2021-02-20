@@ -1,0 +1,49 @@
+absl-py @ file:///tmp/build/80754af9/absl-py_1607439979954/work
+asgiref @ file:///tmp/build/80754af9/asgiref_1605055780383/work
+astor==0.8.1
+astunparse==1.6.3
+cachetools==4.2.1
+certifi==2020.12.5
+chardet==4.0.0
+coverage @ file:///opt/concourse/worker/volumes/live/c4ae5873-1840-4da1-74c5-19e7db8e684f/volume/coverage_1611690852652/work
+Cython @ file:///opt/concourse/worker/volumes/live/0be2fe5e-2479-4ba4-6436-ec8985045960/volume/cython_1605457635746/work
+Django @ file:///tmp/build/80754af9/django_1613762073373/work
+gast==0.3.3
+google-auth==1.27.0
+google-auth-oauthlib==0.4.2
+google-pasta==0.2.0
+grpcio @ file:///opt/concourse/worker/volumes/live/b163997b-b03b-4240-49cb-49ef684ce86d/volume/grpcio_1613730131572/work
+h5py @ file:///opt/concourse/worker/volumes/live/98bee3fd-2687-4017-5421-d742d1f18c35/volume/h5py_1593454156895/work
+idna==2.10
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
+Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
+Markdown @ file:///opt/concourse/worker/volumes/live/ab9d027b-aa96-4f3e-4a67-57db8504e6b6/volume/markdown_1605111065503/work
+mkl-fft==1.2.1
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy==1.18.5
+oauthlib==3.1.0
+opt-einsum==3.1.0
+pandas==1.2.2
+protobuf==3.14.0
+psycopg2 @ file:///opt/concourse/worker/volumes/live/ad0d2468-72e7-4502-526f-2fd0ec5d33ff/volume/psycopg2_1612298588979/work
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+requests==2.25.1
+requests-oauthlib==1.3.0
+rsa==4.7.1
+scipy==1.4.1
+six @ file:///opt/concourse/worker/volumes/live/f983ba11-c9fe-4dff-7ce7-d89b95b09771/volume/six_1605205318156/work
+sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
+tensorboard==2.4.1
+tensorboard-plugin-wit==1.8.0
+tensorflow==2.3.0
+tensorflow-estimator==2.3.0
+termcolor==1.1.0
+urllib3==1.26.3
+Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
+wrapt==1.12.1
+zipp @ file:///tmp/build/80754af9/zipp_1604001098328/work
