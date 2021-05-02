@@ -10,12 +10,20 @@ def plantPromApp(request):
     if request.method == 'POST':
         if form.is_valid():
             sent = form.cleaned_data.get('Sentence')   
-            print(sent)
-            print(len(sent))
             textAns = plantPromClassifier(sent)
-            context['text'] = textAns
+            context['text'] = textAns[0]
+            context['score'] = round(textAns[1],4)
+            # runTest()
         else:
             form = plantPromForm()
     
     context['form'] = form
     return render(request, 'app.html', context=context)
+
+def runTest():
+    file = open('/Users/vinayak/Desktop/Misc/Personal/Plant-Promotor/testOsmotic.txt')
+    array = []
+    for line in file:
+        textAns = plantPromClassifier(line)
+        array.append(textAns)
+    print(array)

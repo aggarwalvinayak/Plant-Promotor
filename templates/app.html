@@ -31,15 +31,21 @@
             <h1 style="font-family: sans-serif; font-size: 25px;">Result</h1>
             {% if text == 'Up-Regulated' %}
             <div class="negative" style="background-color: blue; width: 200px; border-radius: 24px; padding: 12px; color: white; text-align: center;">
-                Up-Regulated
+                Up-Regulated <br>
+                Confidence: 
+                {{score}}
             </div>
             {% elif text == 'Down-Regulated' %}
             <div class="negative" style="background-color: blue; width: 200px; border-radius: 24px; padding: 12px; color: white">
-                Down-Regulated
+                Down-Regulated<br>
+                Confidence: 
+                {{score}}
             </div>
             {% elif text == 'Neutral' %}
             <div class="neutral" style="background-color: blue; width: 200px; border-radius: 24px; padding: 12px; color: white">
-                Neutral
+                Neutral<br>
+                Confidence: 
+                {{score}}
             </div>
             {% endif %}
         </div>

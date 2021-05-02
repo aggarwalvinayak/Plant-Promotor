@@ -31,13 +31,19 @@ def plantPromClassifier(text):
     Xtest = np.array([inputText])
     Xtest.reshape(1,-1)
     Xtest = Xtest.reshape(len(Xtest),1,1000)
+    prediction = model.predict(Xtest)
+    pred = np.argmax(prediction,axis=1)
+    values = prediction[0]   
+    values = sorted(values)
+    confidence_score = (values[-1]/sum(values))
 
-    pred = np.argmax(model.predict(Xtest),axis=1)
     if(pred == 1):
-        return "Up-Regulated"
+        return ["Up-Regulated",confidence_score]
     elif(pred == 2):
-        return "Down-Regulated"
+        return ["Down-Regulated",confidence_score]
     elif(pred == 0):
-        return "Neutral"
+        return ["Neutral",confidence_score]
+
+
 
 
