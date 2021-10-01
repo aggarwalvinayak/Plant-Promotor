@@ -13,7 +13,7 @@ def plantPromApp(request):
             textAns = plantPromClassifier(sent)
             context['text'] = textAns[0]
             context['score'] = round(textAns[1],4)
-            # runTest()
+            runTest()
         else:
             form = plantPromForm()
     
